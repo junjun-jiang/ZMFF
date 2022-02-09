@@ -1,0 +1,31 @@
+experiment_name: zmff
+#data_path: /data_b/hxy/datasets/Lytro
+#data_path: /data_b/hxy/datasets/Real-MFF
+data_path: /data/datasets/Lytro
+#data_path: /data/datasets/Real-MFF/
+#data_path: /data/datasets/MFI-WHU/
+dataset: Lytro                  # [Lytro|Real-MFF|MFI-WHU|Lytro3]
+save_path: ./result/
+writer_path: ./run/
+
+input_typex: source_img         # [noise|meshgrid|source_img]
+input_typem: noise              # [noise|meshgrid|source_img]
+input_channelx: 2               # [8|2]
+input_channelm: 2               # [8|2|1]
+attention: None                 # [None|non-local|dual-attention]
+num_source: 2                   # [1|2]
+scales: 1                       # [1|4]
+
+pad: reflection
+reg_noise_std: 0.001
+lr: 0.01
+alpha: 20                       # [5|20]
+beta: 0.05                      # [0.001|0.05]
+rate: 1                         # [1|0.5]
+
+num_iter: 1300                  # 1500
+img_size: [520, 520]            # [520, 520]
+save_freq: 100
+percep_freq: 100
+rand_seed: 17
+thresh: 600                     # 700
