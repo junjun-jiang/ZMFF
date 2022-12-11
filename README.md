@@ -1,6 +1,16 @@
 # ZMFF
 
-This is an implementation of paper "ZMFF: Zero-Shot Multi-Focus Image Fusion".
+This is an implementation of the following paper.
+
+```
+@article{Hu2023ZMFF,
+title = {ZMFF: Zero-shot multi-focus image fusion},
+journal = {Information Fusion},
+volume = {92},
+pages = {127-138},
+year = {2023},
+}
+```
 
 ## Preparation
 
