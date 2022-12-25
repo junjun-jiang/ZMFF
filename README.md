@@ -5,6 +5,7 @@ This is an implementation of the following paper.
 ```
 @article{Hu2023ZMFF,
 title = {ZMFF: Zero-shot multi-focus image fusion},
+author={Hu, Xingyu and Jiang, Junjun and Liu, Xianming and Ma, Jiayi},
 journal = {Information Fusion},
 volume = {92},
 pages = {127-138},
